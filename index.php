@@ -13,7 +13,7 @@ $aremplacer = array("@",",",".",";",":","!","?","(",")","[","]","{","}","'"," ")
 $enremplacement = " "; 
 $sansponctuation = trim(str_replace($aremplacer, $enremplacement, $chaine));
 $tab = explode(" ", $sansponctuation);
-$pieces = array_merge($pieces,$tab);
+$pieces = array_merge($pieces,$tab);	
 	}
 //}
 
